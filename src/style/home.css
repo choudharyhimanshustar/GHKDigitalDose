@@ -1,0 +1,137 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+
+.school-img {
+    position: relative;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    width: 100%; /* Fill the container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.school-img img {
+    width: 100%; /* Fill the container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.bottom-center{
+    position: absolute;
+    top: 70%; /* Adjust as needed to vertically center the text */
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-shadow: 2px 0px 0px #EBEDFF; /* Horizontal offset, vertical offset, blur radius, and color of the shadow */
+    font-family: "Reem Kufi Fun";
+    font-size: 6vw;
+    font-weight: 700;
+    white-space: nowrap; 
+
+}
+
+.about-us{
+    display: flex;
+    max-width: 1085px; 
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%; 
+    margin: 10vw auto;
+}
+
+.about-us-img {
+    width: 100%; /* Fill the container's width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    display: block; /* Remove any extra spacing */
+    box-shadow: 10px 10px 54px -23px #F08080;
+}
+
+.desc{
+    max-width: 564px;
+    width: 100%;
+    margin: 0 auto; /* Center horizontally */ 
+    padding: 0 20px;
+}
+
+.div-about-us{
+    max-width: 100%;
+    width:100%;
+    font-family: "Reem Kufi Fun";
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    text-transform: uppercase;
+    margin-bottom: 5vw;
+}
+
+.para-about-us{
+    max-width: 564px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.55; /* 142.273% */
+    letter-spacing: 0.5px;
+    margin-bottom: 2vw;
+}
+ 
+.about-more{
+    color: #FBF7F7;
+    font-family: 'Poppins';
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.55; /* 130.417% */
+    letter-spacing: 1px;
+    display: flex;
+    height: 4.5vw;
+    padding: 2.2vw 1.2vw;
+    align-items: center;
+    border: none;
+    border-radius: 2vw;
+    background: var(--button-radail, #D63A3A);
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .school-img img {
+        border-radius: 30px;
+    }
+
+    .div-about-us {
+        max-width: 1085px;
+        width: 100%; /* Adjust to fit smaller screens */
+        font-size: 6vw; /* Adjust font size for smaller screens */
+        text-align: center; /* Center the text horizontally */
+        margin-bottom: 3vw; /* Adjust margin for spacing */
+    }
+
+    .para-about-us {
+        max-width: 100%;
+        margin-bottom: 3vw; /* Adjust margin for spacing */
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+
+    }
+    
+  }

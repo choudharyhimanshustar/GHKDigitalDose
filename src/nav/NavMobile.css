@@ -1,0 +1,41 @@
+.navMobileContanier{
+    background: radial-gradient(72.67% 50% at 50% 50%, rgba(77, 83, 226, 0.2) 0%, rgba(88, 74, 187, 0.46) 100%);
+box-shadow: inset -8px -10px 43.9px rgba(25, 23, 115, 0.25), inset 10px 8px 41px rgba(64, 36, 144, 0.25);
+backdrop-filter: blur(57.3px);
+width: 90vw;
+min-height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 60px;
+margin-top: 20px !important;
+padding:20px 0;
+
+}
+.dropDownContanier{
+    background: radial-gradient(72.67% 50% at 50% 50%, rgba(77, 83, 226, 0.2) 0%, rgba(88, 74, 187, 0.46) 100%);
+box-shadow: inset -8px -10px 43.9px rgba(25, 23, 115, 0.25), inset 10px 8px 41px rgba(64, 36, 144, 0.25);
+backdrop-filter: blur(57.3px);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 28px;
+padding: 10px 30px;
+}
+/* .dropDownContanier:hover{
+    background-color: black !important;
+}
+.dropDownpage:hover{
+    background-color: black !important;
+     background-color: #aea6fa; 
+} 
+*/
+.blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}

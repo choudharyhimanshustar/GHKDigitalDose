@@ -1,0 +1,339 @@
+
+.Row {
+  display: flex;
+  padding: auto;
+  justify-content: space-evenly;
+  /* gap: 30px; */
+  /* padding: 25px; */
+  align-items: center;
+  flex-shrink: 0;
+  }
+  .firstRow{
+    display: flex;
+  padding: auto;
+  justify-content: flex-start;
+  /* gap: 30px; */
+  /* padding: 25px; */
+  align-items: center;
+  flex-shrink: 0;
+  }
+  .firstElement{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+        padding: 7px 18px;
+        gap: 15px;
+        
+        border: none;
+  }
+  .surLabel{
+    text-wrap: nowrap;
+  }
+  .healthyRow{
+    display: flex;
+  padding: auto;
+  justify-content: flex-start;
+  gap: 30px;
+  /* padding: 25px; */
+  align-items: center;
+  flex-shrink: 0;
+  }
+.genderRow{
+  display: flex;
+    padding: auto;
+    justify-content: flex-start;
+    /* gap: 30px; */
+    padding-left: 20px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo{
+              text-align: center;
+    align-items: center;
+    display: inline-block;
+    justify-content:center;
+    padding: 10px 20px;
+    /* width: 1408px;
+    height: 591px; */
+    width: 95vw;
+    margin-top: 100px;
+  }
+.Form{
+    /* width: 1215px; */
+    width: 95vw;
+    flex-direction: column;
+    gap: 10px;
+    background:none;
+    /* height: 2396px; */
+    display:inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    padding-left: 40px;
+    justify-content: flex-start;
+    padding: 8px;
+    border-radius: 8px; 
+}
+.admissionFormContainer{
+  /* display: grid; */
+  grid-template-columns: 1fr;
+}
+  .highschl-button{
+    display: inline-flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: x-large;
+    border: none;
+    /* width: 600px; */
+    font-weight: bold;
+    padding-top:15px;
+    height: 55px;
+    float: left;
+    display: flex;
+    color: #904141;
+    background-color: radial-gradient(50% 50% at 50% 50%, rgba(240, 128, 128, 0.54) 0%, rgba(224, 107, 70, 0.391129) 56.26%, rgba(211, 103, 25, 0.2754) 100%);
+  }
+  .jrclg-button{
+    display: inline-block;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    /* width: 600px; */
+    height: 55px;
+    display: flex;
+    color: #904141;
+    background-color: linear-gradient(#f080808a);
+  }
+
+ .schl-form{
+    /* width: 1200px;
+    height: 1426px; */
+    background: radial-gradient(50% 50% at 50% 50%, rgba(240, 128, 128, 0.54) 0%, rgba(224, 107, 70, 0.391129) 56.26%, rgba(211, 103, 25, 0.2754) 100%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    
+  } 
+
+  .clg-form{
+    /* width: 1200px;
+    height: 1426px; */
+    background: radial-gradient(circle at 54%,rgba(207,31,31,1)0%,rgba(240,128,128,0.54)0%);
+    filter: blur(100%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  fieldset{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .schl-name{
+    display: inline-block;
+    width:100%;
+        padding: 7px 18px;
+        gap: 15px;
+        
+        border: none;
+  }
+  .sur-name{
+    display: flex;
+    width:100%;
+        padding: 7px 18px;
+        gap: 15px;
+        
+        border: none;
+  }
+  .surFormBox{
+    width:76%;
+    height: 30px;
+    padding:0%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    gap: 15px;
+    background-color: #fae4df;
+    margin-top: 10px;
+  }
+  .formLabel{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    gap: 15px;
+    /* margin-bottom: 30px; */
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+  .groupLabel{
+    width: 100%;
+    text-align: start;
+  }
+
+  .formBox{
+    /* width: 400px; */
+    width:90%;
+    height: 30px;
+    padding:0%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    gap: 15px;
+    background-color: #fae4df;
+    margin-top: 10px;
+  }
+
+  .second-box{
+    width: 100%;
+    height: 30px;
+    padding:0%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    gap: 15px;
+    background-color: #fae4df;
+  }
+  .member-box{
+    width: 100%;
+    height: 40px;
+    padding:0%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+    background-color: #fae4df;
+  }
+
+  .date-input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fae4df;
+  }
+
+  .third-box{
+    width: 100%;
+    height: 120px;
+    text-align: start;
+    padding:0%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+    background-color:#fae4df;
+  }
+
+  
+  .fourth-box{
+    width: 100%;
+    height: 30px;
+    text-align: start;
+    padding:0%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    gap: 15px;
+    background-color: #fae4df;
+  }
+
+  .check-box{
+    margin-bottom: 20px;
+    float: right;
+    padding: auto;
+  }
+
+  .checkboxinput{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    /* margin-bottom: 20px; */
+    background-color: #e7b5aa;
+  }
+
+  input[type="checkboxinput"]:checked{
+    background-color: #fae4df;
+  }
+
+  .checkboxText{
+    font-size: 20px;
+  }
+  .lastCheckBox{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+ 
+  .FormPageButton {
+    display: inline-block;
+    gap: 15px;
+    bottom: 5px;
+    margin-top: 20px;
+    padding: 13px 30px;
+    justify-content: right;
+    align-items: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    justify-content: space-between;
+  }
+  .lastLabel{
+    display: flex;
+    gap: 10px;
+  }
+  @media only screen and (max-width:567px){ 
+    .App{
+      /* width: 1500px;
+      height: 4060px; */
+      width: 100%;
+  }    
+  .firstRow{
+    flex-direction: column;
+  }
+    .Row{
+      flex-direction: column;
+      /* width: 80vw; */
+    }
+    .lastCheckBox{
+      grid-template-columns: 1fr;
+    }
+    .healthyRow{
+      flex-direction: column;
+    }
+    .genderRow{
+      flex-direction: column;
+      padding-left: 0;
+    }
+    .formLabel{
+      font-size: 16px;
+    }
+    .logo{
+      margin-top: 0px;
+    }
+  }

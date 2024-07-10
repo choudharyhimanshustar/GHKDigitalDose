@@ -1,0 +1,85 @@
+.FieldTripContainer {
+    text-align: center;
+    color: #8c1f1f;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: xx-large;
+    margin: 150px 0px 50px 0;
+  }
+  
+  .FieldTripPara {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .FieldTripImageContainer {
+    width: 100%; /* Adjust as needed */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .FieldTripImageContainer img {
+    display: inline-block;
+    vertical-align: top;
+    width:25% ;
+    height:auto;
+    margin-right: 1%;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(200%);
+    }
+    25% {
+      transform: translateX(-20%);
+    }
+    50% {
+      transform: translateX(-20%);
+    }
+    75% {
+      transform: translateX(-20%);
+    }
+    100% {
+      transform: translateX(200%);
+    }
+  }
+  .FieldTripImageContainer img {
+    animation: scroll 20s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  .FieldTripImageContainer:before,
+  .FieldTripImageContainer:after {
+    content: "";
+    z-index: 2;
+  }
+  
+  .FieldTripImageContainer:before {
+    position: absolute;
+    top: 0;
+    left:0%;
+    width: 25%; 
+    height: 100%;
+    background: linear-gradient(to left,#FFFFFF,#FDBFBF, #FDBFBF);
+  }
+  
+  .FieldTripImageContainer:after {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 25%; 
+    height: 100%;
+    background: linear-gradient(to right,#FFFFFF,#FDBFBF, #FDBFBF );
+  }
+  
+  .FieldTripImageContainer img:first-child {
+    animation: scroll 20s linear infinite;
+  }
+  
+  .FieldTripImageContainer img:last-child {
+    opacity: 1;
+    filter: none;
+  }

@@ -1,0 +1,224 @@
+
+
+.ruleimgmain {
+  background-image: url('../../Images/top\ copy.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 613px;
+  /* width: 1429px; */
+  width: 90vw;
+  /* margin-top: 52px;
+  margin-left: 44px; */
+  margin: 52px 44px 0 52px;
+  flex-shrink: 1;
+}
+
+.rulemain {
+  display: flex;
+  /* width: 1470px; */
+  width: 90vw;
+  height: auto;
+  margin-top: 162px;
+  margin-left: 53px;
+  flex-shrink: 1;
+}
+
+.rulemainbar {
+  height: 18px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 13px 41px;
+  margin-left: -23px;
+}
+
+.rulelink {
+  text-decoration: none;
+  color: rgba(140, 31, 31, 1);
+}
+
+
+/* General */
+
+.rulecomponents1 {
+  /* width: 1393px; */
+  width: 90vw;
+  height: 929.18px;
+  margin-top: 21px;
+  margin-left: 53px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  overflow: auto;
+  background-image: url('../../Images/genaral2.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 1;
+}
+
+
+.rulecomponents2 {
+  /* width: 1393px; */
+  width: 90vw;
+  height: 929.18px;
+  margin-top: 21px;
+  margin-left: 53px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  overflow: auto;
+  background-image: url('../../Images/Screenshot\ \(96\)\ copy.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 1;
+}
+
+.rulecomponents3{
+  /* width: 1393px; */
+  width: 90vw;
+  height: 929.18px;
+  margin-top: 21px;
+  margin-left: 53px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  overflow: auto;
+  background-image: url('../../Images/relues\ in\ con2.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 1;
+}
+
+.rulecomponents4{
+  /* width: 1393px; */
+  width: 90vw;
+  height: 929.18px;
+  margin-top: 21px;
+  margin-left: 53px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  overflow: auto;
+  background-image: url('../../Images/attendence2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 1;
+}
+
+.rulecomponents5{
+  /* width: 1393px; */
+  width: 90vw;
+  height: 929.18px;
+  margin-top: 21px;
+  margin-left: 53px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  overflow: auto;
+  background-image: url('../../Images/rules\ and\ reg2.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 1;
+}
+
+.rulecomponents6{
+  /* width: 1393px; */
+  width:90vw;
+  height: 929.18px;
+  margin-top: 21px;
+  margin-left: 53px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  overflow: auto;
+  background-image: url('../../Images/withdraw2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 1;
+}
+
+/* .rulecomponents1img {
+  background-image: url('../../Images/flat-color-icons_rules.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 712px;
+  width: 712px;
+  position: relative;
+  top: 105px;
+  left: 340px;
+} */
+
+
+.rulecomponents1text{
+  height: 506.01px;
+  /* width: 1277px; */
+  width: 100vw;
+  margin-top: 68px;
+  margin-left: 56px;
+  display:flex;
+  flex-direction: column;
+}
+
+.component1list{
+  display: flex;
+  margin-left: -40px;
+  margin-top: 10px;
+  /* width: 1275px; */
+  width: 100vw;
+}
+
+.componentbullet{
+  background: url('../../Images/Default.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+.componentlistdata{
+  margin-left: 25px;
+  color: rgba(40, 5, 5, 1);
+  height: auto;
+  width: 1188px;
+  text-align: start;
+  margin-top: 0px;
+  font-family: Poppins;
+  font-size: 24px;
+  letter-spacing: 0.08em;
+}
+
+/* inside text  */
+
+.insidetextcmp1{
+  margin-top: -33px;
+}
+
+.liststextinsidecmp1{
+  /* width: 1185px; */
+  width:100vw;
+  height: 25px;
+  margin-left: 10px;
+  text-align: start;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bulletuper{
+  height: 18px;
+  width: 20px;
+  background: url('../../Images/Vector\ copy.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+
+.listdatainsidecmp1{
+  margin-left: 24px;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 0px;
+  letter-spacing: 0.07em;
+}

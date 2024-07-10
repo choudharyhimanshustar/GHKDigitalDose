@@ -1,0 +1,664 @@
+.schoolTimingApp {
+  text-align: center;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: -1;
+}
+
+.schoolContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 3361px; */
+  /* width: 1500px; */
+  width: 90vw;
+  margin-left: 70px;
+  /* margin-top: -400px; */
+  margin-bottom: 100px;
+}
+
+/*header {
+  margin-top: 286px;
+}*/
+
+.main-content {
+  /* margin-top: 286px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  margin-top: 164px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  z-index: 1;
+}
+
+.content-item {
+  border: 1px solid #ccc;
+  height: 442px;
+  width: 442px;
+  border-radius: 50px;
+  background-image: linear-gradient(to bottom, white, pink);
+}
+
+.img {
+  background: url('./Group\ 114.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.preprimaryimg{
+  background: url('./Group.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.primsecondimg{
+  background: url('./21864487_6529885\ 1primary\ secondary.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.juniorclgimg{
+  background: url('./Frame\ 523.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jrclgpracticalimg{
+  background: url('./practical.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay-image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url('./image1.png');
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.overlay-image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url('./image1.png');
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.overlay-image3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url('./image1.png');
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.timing-name {
+  font-size: 28px;
+  color: darkred;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.college-time {
+  color: indianred;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 280px;
+}
+
+.double-content {
+  position: relative;
+  margin-top: 24px;
+  width: 1362.86px;
+  /* height: 613px; */
+  border-radius: 50px;
+  border: 1px solid grey;
+  background-image: linear-gradient(to bottom, white, pink);
+  z-index: 1;
+}
+
+.overlay-image4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url('./image1.png');
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.heading {
+  color: darkred;
+  margin-top: 36px;
+  font-size: 40px;
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+/*img1{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 36px;
+}
+
+.img2{
+  position:absolute;
+  margin-top: 36px;
+  margin-right: 200px;
+  
+}*/
+
+.p1 {
+  color: indianred;
+  font-family: poppins;
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+
+.p2 {
+  color: #B44040;
+  font-size: 32px;
+  font-family: poppins;
+  margin-top: -30px;
+}
+
+.sentence {
+  color: #C95D5D;
+  position: relative;
+  text-align: center;
+  font-size: 26px;
+  font-family: poppins;
+  margin-top: -50px;
+  margin-bottom: 50px
+}
+
+.centered-divs {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.school-timing-centered-div2 {
+  width: 668px;
+  height: 594px;
+  border-radius: 50px;
+  border: 1px solid palevioletred;
+  margin-right: 12px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, white, pink);
+
+}
+
+.overlay-image5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url('./image1.png');
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.school-timing-centered-div2 {
+  width: 668px;
+  height: 594px;
+  border-radius: 50px;
+  border: 1px solid palevioletred;
+  margin-left: 12px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, white, pink);
+}
+
+/* .overlay-image6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url('./NURSERY.png');
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 50px;
+} */
+
+.collegetype {
+  color: darkred;
+  font-size: 30px;
+  margin-top: 36px;
+
+}
+
+.collegetime {
+  color: indianred;
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 400px;
+}
+
+/*footer {
+  margin-top: 24px;
+}*/
+.Ellipse13 {
+  position: absolute;
+  top: -219px;
+  left: -60px;
+  transform: scale(.5);
+  width: 50em;
+  height: 50em;
+  border-radius: 346%;
+  object-fit: none;
+  mask: radial-gradient(circle at center, white 50%, transparent 51%);
+  -webkit-mask: radial-gradient(circle at center, white 50%, transparent 50%);
+  padding-top: 3.5em;
+  padding-left: 1.7em;
+}
+
+.Ellipse12 {
+  position: absolute;
+  top: -130px;
+  left: -30px;
+  transform: scale(.655);
+  width: 30em;
+  height: 30em;
+  border-radius: 346%;
+  object-fit: none;
+  mask: radial-gradient(circle at center, white 50%, transparent 51%);
+  -webkit-mask: radial-gradient(circle at center, white 50%, transparent 50%);
+  padding-top: 0.5em;
+  padding-left: 0.7em;
+}
+
+/* media query for tablets */
+@media only screen and (min-width: 768px) {
+  /* CSS styles for tablets */
+}
+
+/* media query for mobile phones */
+@media only screen and (max-width: 768px) {
+  /* CSS styles for mobile phones */
+  .schoolTimingApp {
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .schoolContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 3361px; */
+    /* width: 1500px; */
+    width: 90vw;
+    margin-left: 19px;
+    /* margin-top: -400px; */
+    margin-bottom: 100px;
+  }
+  
+  /*header {
+    margin-top: 286px;
+  }*/
+  
+  .main-content {
+    /* margin-top: 286px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+  
+  .p-4{
+    height: 50vw;
+    width: 90vw;
+  }
+  .content-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    z-index: 1;
+  }
+  
+  .content-item {
+    border: 1px solid #ccc;
+    height: 442px;
+    width: 90vw;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, white, pink);
+  }
+  
+  .img {
+    background: url('./Group\ 114.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .preprimaryimg{
+    background: url('./Group.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .primsecondimg{
+    background: url('./21864487_6529885\ 1primary\ secondary.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .juniorclgimg{
+    background: url('./Frame\ 523.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .jrclgpracticalimg{
+    background: url('./practical.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url('./image1.png');
+    background-size: cover;
+    opacity: 0.1;
+    border-radius: 50px;
+  }
+  
+  .overlay-image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url('./image1.png');
+    background-size: cover;
+    opacity: 0.1;
+    border-radius: 50px;
+  }
+  
+  .overlay-image3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url('./image1.png');
+    background-size: cover;
+    opacity: 0.1;
+    border-radius: 50px;
+  }
+  
+  .timing-name {
+    font-size: 28px;
+    color: darkred;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  .college-time {
+    color: indianred;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 280px;
+  }
+  
+  .double-content {
+    position: relative;
+    margin-top: 24px;
+    /* height: 1540.86px; */
+    width: 90vw;
+    border-radius: 50px;
+    border: 1px solid grey;
+    background-image: linear-gradient(to bottom, white, pink);
+    z-index: 1;
+  }
+
+  .imgmy{
+    width: 32em;
+    height: 31em;
+  }
+  
+  .overlay-image4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url('./image1.png');
+    background-size: cover;
+    opacity: 0.1;
+    border-radius: 50px;
+  }
+  
+  .heading {
+    color: darkred;
+    margin-top: 36px;
+    font-size: 40px;
+  
+  }
+  
+  .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .p1 {
+    color: indianred;
+    font-family: poppins;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .p2 {
+    color: #B44040;
+    font-size: 32px;
+    font-family: poppins;
+    margin-top: -30px;
+  }
+  
+  .sentence {
+    color: #C95D5D;
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    font-family: poppins;
+    margin-top: -50px;
+    margin-bottom: 50px
+  }
+  
+  .centered-divs {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+  }
+  
+  .school-timing-centered-div2 {
+    /* width: 668px;
+    height: 594px; */
+    height: 473px;
+    width: 90vw;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: 1px solid palevioletred;
+    margin-right: 12px;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, white, pink);
+    margin-bottom: 25px;
+  }
+  
+  .overlay-image5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url('./image1.png');
+    background-size: cover;
+    opacity: 0.1;
+    border-radius: 50px;
+  }
+  
+  .school-timing-centered-div2 {
+    height: 473px;
+    width: 90vw;
+    border-radius: 50px;
+    border: 1px solid palevioletred;
+    margin-left: 20px;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, white, pink);
+  }
+  
+  /* .overlay-image6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url('./NURSERY.png');
+    background-size: cover;
+    opacity: 0.1;
+    border-radius: 50px;
+  } */
+  
+  .collegetype {
+    color: darkred;
+    font-size: 30px;
+    margin-top: 36px;
+  
+  }
+  
+  .collegetime {
+    color: indianred;
+    font-family: poppins;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 295px;
+  }
+  
+  /*footer {
+    margin-top: 24px;
+  }*/
+  /* .Ellipse13 {
+    position: absolute;
+    top: -261px;
+    left: -208px;
+    transform: scale(.5);
+    width: 50em;
+    height: 50em;
+    border-radius: 346%;
+    object-fit: none;
+    mask: radial-gradient(circle at center, white 50%, transparent 51%);
+    -webkit-mask: radial-gradient(circle at center, white 50%, transparent 50%);
+    padding-top: 3.5em;
+    padding-left: 1.7em;
+  } */
+  .Ellipse13 {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -12%);
+  transform: translate(-50%, -12%) scale(1);
+    width: 18em;
+    height: 24em;
+    border-radius: 346%;
+    object-fit: cover;
+    mask: radial-gradient(circle at center, white 50%, transparent 51%);
+    -webkit-mask: radial-gradient(circle at center, white 90px, transparent 50%);
+    padding-top: 15px;
+    padding-left: 7px;
+  }
+  .Ellipse12 {
+    position: absolute;
+    /* top: -125px;
+    left: -69px; */
+    top: -102px;
+    left: 0px;
+    transform: scale(.655);
+    width: 32em;
+    height: 31em;
+    border-radius: 346%;
+    object-fit: none;
+    mask: radial-gradient(circle at center, white 50%, transparent 51%);
+    -webkit-mask: radial-gradient(circle at center, white 50%, transparent 50%);
+    padding-top: 0.5em;
+    padding-left: 0.7em;
+  }
+  
+  
+}

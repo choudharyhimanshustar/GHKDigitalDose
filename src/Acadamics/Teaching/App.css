@@ -1,0 +1,75 @@
+.aboutmargin{
+    margin-left: 44px;
+}
+
+.teachinmainsec{
+    display: flex;
+}
+
+.textdivteaching{
+    width: 683px;
+    height: 283px;
+}
+
+.ptextteaching{
+    font-size: 2rem;
+}
+
+.aboutteachingimg{
+    margin-left: 350px;
+}
+
+.primaryteachingimg{
+    margin-right: 300px;
+}
+
+.textprimarydivteaching{
+    width: 683px;
+    height: 283px;
+    margin-right: 100px; 
+}
+
+.aboutpopup{
+    background-color: rgba(236, 186, 186, 1);
+    margin-top: -165px;
+    margin-left: 75px;
+    height: 1258px;
+    width: 90vw;
+    border-radius: 50px;
+    overflow: auto;
+}
+.aboutpopupmain{
+    background-color: rgba(217, 217, 217, 0.33);
+    margin-top: 25px;
+    margin-left: 15px;
+    /* height: 1150px; */
+    width: 85vw;
+}
+.maincutdivteaching{
+    border-radius: 50px;
+    height: 66px;
+    width: 66px;
+    background-color: rgba(236, 186, 186, 1);
+    color: rgba(77, 13, 13, 1);
+    margin-left: 1146px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.aboutcontent{
+    font-family: poppins;
+    font-size: 36px;
+    margin-left: 95px;
+    width: 1020px;
+}
+
+.aboutcontentheading{
+    display: flex;
+    justify-content: center;
+    color: rgba(94, 16, 16, 1);
+    font-size: 48px;
+    font-family: Reem Kufi Fun;
+}

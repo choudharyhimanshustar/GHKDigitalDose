@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchBackground {
+  background: linear-gradient(
+    180deg,
+    #fae8e8 0%,
+    rgba(255, 203, 203, 0.59) 100%
+  );
+}
+.buttonBackground {
+  background: radial-gradient(
+      54.65% 54.65% at 55.04% 50%,
+      #d63a3a 0%,
+      rgba(219, 39, 39, 0.8) 31.25%,
+      #e75a54 77.08%,
+      #f74c4c 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.background {
+  background: linear-gradient(
+    181.2deg,
+    rgba(226, 87, 68, 0) -23.56%,
+    rgba(217, 66, 53, 0) 28.75%,
+    rgba(210, 52, 42, 0.48) 81.43%,
+    rgba(255, 126, 126, 0.75) 99.01%
+  );
+  /* Rectangle 39 */
+
+  position: absolute;
+  width: 1325px;
+  height: 450px;
+  margin: 1rem;
+}
+.schoolPara {
+  margin-left: 40rem;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.description {
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  width: 30rem;
+}
+
+.schoolImage {
+  width: 450px;
+  position: absolute;
+  left: 3.5rem;
+}
+.mainImage {
+  position: relative;
+  left: 0rem;
+}
+.DirectorImage {
+  width: 400px;
+  position: absolute;
+  left: 55rem;
+}
+
+.PrincipalImage {
+  width: 400px;
+  position: absolute;
+  left: 55rem;
+}
+
+.schoolDescription {
+  width: 40rem;
+  position: relative;
+  margin-bottom: 7%;
+  margin-top: 10%;
+}
+
+.DirectorMessage {
+  width: 40rem;
+  position: relative;
+  margin-bottom: 7%;
+}
+
+.PRINCIPALMESSAGE {
+  width: 80rem;
+  position: relative;
+  margin-bottom: 7%;
+}
+.principal {
+  font-weight: bold;
+  color: #8c1f1f;
+  font-size: 250%;
+  position: relative;
+  top: 45%;
+  left: 8%;
+}
+.responsiveImage {
+  max-width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 6%;
+}
+.carouselInner {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.custom-heading {
+  color: #8c1f1f;
+  font-size: 2em; /* You can adjust the size as needed */
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+/* .left img
+{
+  position: relative;
+  left:80%;
+  top:50%
+} */
+
+.carouselInner .center {
+  width: 200%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-align-last: center;
+  background-color: #ffb3b1;
+  border-radius: 15%;
+}
+.tableImage {
+  position: relative;
+  /* left: 10%; */
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 650px) {
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .schoolImage {
+    width: 90vw;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 4%;
+    border-radius: 40%;
+    position: absolute;
+    left: 3%;
+  }
+  .schoolPara {
+    width: 60%;
+    position: relative;
+    /* margin-left: 30%; */
+    top: 25%;
+    /* margin-bottom: 140%; */
+    margin: 50px auto;
+  }
+  .DirectorMessage {
+    width: 100%;
+    margin-bottom: 90%;
+  }
+  .DirectorMessage p {
+    width: 150%;
+    height: 60%;
+  }
+  .DirectorImage {
+    width: 90vw;
+    height: 20%;
+    margin-top: 2.5%;
+    border-radius: 40%;
+    position: absolute;
+    left: 5%;
+  }
+  .DirectorPara {
+    width: 60%;
+    height: auto;
+    position: relative;
+    margin-left: 5%;
+    top: 25%;
+    margin-bottom: 100%;
+  }
+  .PrincipalImage {
+    width: 90vw;
+    height: 20%;
+    margin-top: 2.5%;
+    border-radius: 40%;
+    position: absolute;
+    left: 5%;
+  }
+  .PRINCIPALMESSAGE {
+    width: 100%;
+    margin-bottom: 90%;
+  }
+  .PRINCIPALMESSAGE p {
+    width: 150%;
+  }
+  .PrincipalPara {
+    width: 60%;
+    height: auto;
+    position: relative;
+    margin-left: 5%;
+    top: 25%;
+    margin-bottom: 100%;
+  }
+  
+  .schoolDiv {
+    width: 80%;
+    height: auto;
+    margin-bottom: 80%;
+  }
+  .schoolDescription
+  {
+    width:400px
+  }
+}

@@ -1,0 +1,17 @@
+.map-responsive{
+    overflow: hidden;
+    height: 373px;
+    position: relative;
+    margin-top: 45px;
+    border-radius: 28px;
+
+}
+.map-responsive iframe{
+    border-radius: 28px;
+    border: 0;
+    height: 373px;
+    width: 567px;
+    left: 0;
+    top: 0;
+    position: absolute;   
+}

@@ -1,0 +1,52 @@
+.FieldTripContainer
+{
+  text-align: center;
+  color:#8C1F1F;
+  font-weight:600;
+  font-family: "Poppins", sans-serif;
+  font-size:xx-large;
+}
+
+.FieldTripPara
+{
+  width: 90%;
+  margin-left:5%;
+  margin-right: 5%;
+}
+
+.FieldTripImageContainer {
+  width: 100%; 
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.FieldTripImageContainer img {
+  display: inline-block;
+  vertical-align: top;
+  width:30%;
+  height:80%;
+  border-radius: 20px;
+  margin-left: 4%;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-20%);
+    /* transform: scale(1.25); */
+  }
+  50% {
+    transform: translateX(-40%);
+    /* transform: scale(1.25); */
+  }
+  75% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.FieldTripImageContainer img {
+  animation: scroll 10s linear infinite; /* Adjust animation duration as needed */
+}

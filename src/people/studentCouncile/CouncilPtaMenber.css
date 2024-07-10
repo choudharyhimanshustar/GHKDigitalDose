@@ -1,0 +1,964 @@
+
+.Council-pta-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 5vw;
+}
+
+.council-image img {
+  border-radius: 41px;
+  /* No need for margin: 0 auto; */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-height: 100%;
+}
+
+.council-image-text{
+max-width: 649px;
+width: 100%;
+text-align: center; 
+color: #8C1F1F;
+font-size: 67px;
+font-family: 'Reem Kufi Fun';
+font-weight: 700;
+text-transform: uppercase;
+word-wrap: break-word;
+position: absolute;
+top: 88px;
+left: 5%;
+}
+
+.student-council-text{
+max-width: 1087px;
+width: 100%;
+height: auto;
+margin: 80px auto;
+}
+
+
+
+.StudentsCouncil{
+width: 100%;
+height: 77px;
+text-align: center;
+color: #8C1F1F; 
+font-size: 40px; 
+font-family: 'Reem Kufi Fun'; 
+font-weight: 600; 
+text-transform: uppercase; 
+letter-spacing: 0.96;
+margin-bottom: 40px;
+}
+
+.councilImage {
+  position: relative; /* Ensure positioning for the overlay */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-bottom: 55px;
+}
+
+.councilImage img{
+  max-width: 930px;
+  width: 100%;
+  height: 200px;
+}
+
+
+.councilText{
+display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  margin-bottom: 40px;
+  max-width: 1100px;
+  width:100%;
+  height: auto;
+  text-align: justify;
+  color: black; 
+  font-size: 18px;
+  font-family: 'Poppins'; 
+  font-weight: 500; 
+  line-height: 27.30px; 
+  letter-spacing: 0.40px; 
+  word-wrap: break-word; 
+  margin: auto;
+}
+.popup-container{
+max-width: 1100px;
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+margin: 130px auto 50px auto;
+justify-content: space-between; /* Ensure even spacing between columns */
+
+
+}
+
+.popup1,
+.popup2 {
+flex-basis: 45%; /* Adjust as needed */
+}
+
+.popup1 {
+/* margin-right: 20px; Increase the gap between columns */
+}
+
+.popup2 {
+margin-left: 20px; /* Increase the gap between columns */
+}
+
+.house-system,
+.perfects,
+.teacher-represent,
+.elected-represent {
+margin-bottom: 45px; /* Increase the space between rows */
+}
+
+.popup1{
+width: 100%;
+}
+
+.popuptext{
+height: auto;
+text-align: justify; 
+color: #180202; 
+font-size: 20px; 
+font-family: 'Poppins'; 
+font-weight: 400;
+line-height: 1.44; 
+letter-spacing: 0.44; 
+word-wrap: break-word;
+overflow-y: auto;
+  
+}
+
+
+/* The actual popup */
+.house-system .popuptext {
+visibility: hidden;
+width: 1085px;
+height: 550px;
+background: rgba(217, 217, 217, 0.33); 
+color: #1e1b1b;
+box-shadow: 18px 17px 107.19999694824219px 26px #FEDADA inset;
+text-align: justify;
+border-radius: 6px;
+padding: 80px 20px;
+position: absolute;
+z-index: 2;
+bottom: -118%;
+left: 40%;
+backdrop-filter: blur(95.80px);
+margin-left: -200px;
+border-radius: 94px;
+
+}
+
+.house-system {
+max-width: 531px;
+width: 100%;
+height: 248px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.house-system::before {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: radial-gradient(circle, #FFBCBC 0%, #FFC2C2 49%, #FEBCBC 100%);
+border-radius: 30px; 
+
+}
+
+.house-system::after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-image: url("./assets/images/Group.png");
+background-size: cover; /* Make the background image responsive */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat;
+opacity: 0.7;
+border-radius: 30px; 
+
+}
+
+.house-system .HouseSystem {
+position: absolute;
+top: 80px; /* Adjust top positioning as needed */
+left: 50%;
+transform: translateX(-50%);
+width: 100%;
+text-align: center;
+color: #8C1F1F;
+font-size: 39.33px;
+font-family: 'Reem Kufi Fun';
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.91px;
+word-wrap: break-word;
+z-index: 1; /* Ensure text appears above background */
+
+}
+
+
+.teacher-represent{
+max-width: 531px;
+width: 100%;
+height: 248px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+background: radial-gradient(circle at center,  #F29C90 0%, #ED948F 44%, #FFB0B0 100%);
+border-radius: 30px; 
+position: relative;
+
+}
+
+.teacher-represent::before {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: radial-gradient(circle at center,  #F29C90 0%, #ED948F 44%, #FFB0B0 100%);  border-radius: 30px; 
+
+}
+
+.teacher-represent::after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-image: url("./assets/images/Group49.png");
+background-size: cover; /* Make the background image responsive */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat;
+opacity: 0.7;
+border-radius: 30px; 
+
+}
+
+.teacher-represent .teacherSystem {
+position: absolute;
+top: 50px; /* Adjust top positioning as needed */
+left: 50%;
+transform: translateX(-50%);
+width: 553px;
+text-align: center;
+color: #8C1F1F;
+font-size: 39.33px;
+font-family: 'Reem Kufi Fun';
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.91px;
+word-wrap: break-word;
+z-index: 1; /* Ensure text appears above background */
+}
+
+
+.perfects{
+max-width: 531px;
+width: 100%;
+height: 248px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+background: radial-gradient(circle at center, #FFE4AF 0%, #FFCFAC 44%, #FFCA98 100%);  position: relative;
+position: relative;
+border-radius: 30px; 
+
+
+}
+
+.perfects::before {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 30px; 
+
+background: radial-gradient(circle at center, #FFE4AF 0%, #FFCFAC 44%, #FFCA98 100%);  position: relative;
+}
+
+.perfects::after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-image: url("./assets/images/Group1.png");
+background-size: cover; /* Make the background image responsive */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat;
+opacity: 0.7;
+border-radius: 30px; 
+
+}
+
+.perfects .perfectSystem {
+position: absolute;
+top: 80px; /* Adjust top positioning as needed */
+left: 50%;
+transform: translateX(-50%);
+width: 100%;
+text-align: center;
+color: #8C1F1F;
+font-size: 39.33px;
+font-family: 'Reem Kufi Fun';
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.91px;
+word-wrap: break-word;
+z-index: 1; /* Ensure text appears above background */
+}
+
+
+.elected-represent{
+max-width: 531px;
+width: 100%;
+height: 248px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+background: radial-gradient(circle at center, #FFDED6 0%, #FFDED7 36%, #FFE0D9 100%);
+border-radius:30px;
+position: relative;
+
+box-sizing: border-box;
+}
+
+.elected-represent::before {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: radial-gradient(circle at center, #FFDED6 0%, #FFDED7 36%, #FFE0D9 100%);
+border-radius: 30px; 
+
+}
+
+.elected-represent::after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-image: url("./assets/images/object.png");
+background-size: cover; /* Make the background image responsive */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat;
+opacity: 0.7;
+border-radius: 30px; 
+
+}
+
+.elected-represent .electedSystem {
+position: absolute;
+top: 50px; /* Adjust top positioning as needed */
+left: 50%;
+transform: translateX(-50%);
+width: 500px;
+text-align: center;
+color: #8C1F1F;
+font-size: 32px;
+font-family: 'Reem Kufi Fun';
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.91px;
+word-wrap: break-word;
+z-index: 1; /* Ensure text appears above background */
+
+}
+
+.HouseSystemHeader{
+max-width: 1000px; 
+width: 100%;
+height: 72px; 
+text-align: center; 
+color: #5E1010; 
+font-size: 35px; 
+font-family: 'Reem Kufi Fun'; 
+font-weight: 600; 
+text-transform: uppercase; 
+letter-spacing: 0.96;
+word-wrap: break-word;
+}
+
+.electedSystemHeader{
+max-width: 1000px; 
+width: 100%;
+height: 72px; 
+text-align: center; 
+color: #5E1010; 
+font-size: 35px; 
+font-family: 'Reem Kufi Fun'; 
+font-weight: 600; 
+text-transform: uppercase; 
+letter-spacing: 0.96;
+word-wrap: break-word;
+}
+
+.popuptext{
+position: sticky;
+}
+
+.popuptext::-webkit-scrollbar {
+width: 0; /* Hide scrollbar on Chrome/Safari */
+}
+
+.popuptext {
+scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
+
+#cross-image{
+margin-top: -61px;
+margin-left: 920px;
+}
+
+/* Toggle this class - hide and show the popup */
+.house-system .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+from {opacity: 0;} 
+to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+}
+
+
+.para-stdt {
+margin-left: 60px;
+margin-right: 60px;/* Adjust the padding value as needed */
+word-wrap: break-word;  
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 170px;
+}
+
+.std-table{
+
+height: 220px;
+text-align: center; 
+color: #180202; 
+font-size: 15px; 
+font-family: 'Poppins'; 
+font-weight: 400;
+line-height: 2.0; 
+letter-spacing: 0.44px; 
+word-wrap: break-word;
+overflow-y: auto;
+margin: 30px auto;
+
+
+}
+
+.rounded{
+border-collapse: separate;
+border-spacing: 0px 0px;
+border-radius: 30px !important;
+overflow: hidden;
+}
+
+.perfects .popuptext {
+visibility: hidden;
+width: 1085px;  
+height: 550px;
+background: rgba(217, 217, 217, 0.33); 
+color: #1e1b1b;
+box-shadow: 18px 17px 107.19999694824219px 26px #FEDADA inset;
+text-align: justify;
+border-radius: 6px;
+padding: 80px 20px;
+position: absolute;
+z-index: 2;
+bottom: 0%;
+left: 40%;
+backdrop-filter: blur(95.80px);
+margin-left: -200px;
+border-radius: 94px;
+}
+
+.perfects .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;
+}
+
+.prefects-table{
+max-width: 750px;
+width: 100%;
+text-align: center; 
+color: #180202; 
+font-family: 'Poppins'; 
+line-height: 2.44; 
+letter-spacing: 0.44px; 
+word-wrap: break-word;
+margin: 30px auto;
+border-radius: 30px;
+}
+
+.teacher-table{
+max-width: 780px;
+width: 100%;
+text-align: center; 
+color: #180202; 
+font-family: 'Poppins'; 
+line-height: 2.4; 
+letter-spacing: 0.44px; 
+word-wrap: break-word;
+margin: 30px auto;
+border-radius: 30px;
+}
+
+
+.elected-table{
+max-width: 860px;
+width: 100%;
+text-align: center; 
+color: #180202; 
+font-family: 'Poppins'; 
+line-height: 1.7; 
+letter-spacing: 0.44px; 
+word-wrap: break-word;
+margin: 30px auto;
+border-radius: 30px;
+}
+
+.table-container {
+height: calc(100% - 60px); /* Adjust this value according to your design */
+overflow-y: auto;
+border-radius: 30px;
+}
+
+.table-container {
+scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
+
+.teacher-represent .popuptext {
+visibility: hidden;
+width: 1085px;
+height: 550px;
+background: rgba(217, 217, 217, 0.33); 
+color: #1e1b1b;
+box-shadow: 18px 17px 107.19999694824219px 26px #FEDADA inset;
+text-align: justify;
+border-radius: 6px;
+padding: 80px 20px;
+position: absolute;
+z-index: 2;
+bottom: -88%;
+left: -80%;
+backdrop-filter: blur(95.80px);
+margin-left: -200px;
+border-radius: 94px;
+}
+
+.teacher-represent .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;
+}
+
+
+.elected-represent .popuptext {
+visibility: hidden;
+width: 1085px;
+height: 550px;
+background: rgba(217, 217, 217, 0.33); 
+color: #1e1b1b;
+box-shadow: 18px 17px 107.19999694824219px 26px #FEDADA inset;
+text-align: justify;
+border-radius: 6px;
+padding: 80px 20px;
+position: absolute;
+z-index: 2;
+bottom: 10%;
+left: -80%;
+backdrop-filter: blur(95.80px);
+margin-left: -200px;
+border-radius: 94px;
+}
+
+.elected-represent .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.council-image-text {
+  max-width: 50%;
+  font-size: 40px; /* Adjust font size for smaller screens */
+  top: 50px; /* Adjust top position of text */
+  left: 7%; /* Center text horizontally */
+}
+
+.student-council-text{
+  margin: 40px auto;
+}
+
+.council-image img {
+  width: 90%; /* Adjust image width to fit smaller screens */
+  height: auto;
+  margin: 30px;
+}
+
+.StudentsCouncil{
+  max-width: 100%;
+  width: 100%;
+  font-size: 30px;
+  margin:20px auto;
+}
+
+
+.council-image img {
+  width: 90%; /* Adjust image width to fit smaller screens */
+  height: auto;
+  margin: 30px;
+}
+
+.councilImage img{
+  width: 90%;
+  height: auto;
+}
+
+.councilText {
+  width: 90%;
+  font-size: 16px; /* Adjust font size for smaller screens */
+  line-height: 1.2; /* Adjust line height for smaller screens */
+  margin: 10px;
+}
+
+.popup-container{
+  display: flex;
+  flex-direction: column;
+  margin: 70px auto 50px auto;
+
+}
+
+.teacher-represent,
+.elected-represent ,
+.house-system,
+.perfects{
+  width: 90%; /* Adjust the width to ensure the divs are visible on smaller screens */
+  margin: 40px auto; /* Center the divs horizontally */
+  flex-direction: column; /* Set flex-direction to column for stacking elements vertically */
+  align-items: center; /* Center the child elements vertically */
+}
+
+.teacher-represent::before,
+.teacher-represent::after,
+.elected-represent::before,
+.elected-represent::after {
+  width: 100%; /* Ensure the pseudo-elements cover the entire width */
+}
+
+.popup2{
+  width: 100%;
+  margin-top: 0px ;
+  margin-left: -10px;
+}
+
+.popuptext {
+    width: 90%;
+    max-width: 700px; /* Adjust maximum width for smaller screens */
+    padding: 8vw 5vw; /* Adjust padding for smaller screens */
+    border-radius: 8vw; /* Adjust border-radius for smaller screens */
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  .people-container{
+    max-width: 100%; /* Set a maximum width */
+    margin:0 30px; /* Center horizontally */
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .council-image-text {
+    max-width: 50%;
+  font-size: 20px; /* Adjust font size for smaller screens */
+  top: 40px; /* Adjust top position of text */
+  left: 5%; /* Center text horizontally */
+  }
+
+  .student-council-text{
+    margin: 0px auto;
+  }
+
+  .StudentsCouncil{
+    max-width: 100%;
+    width: 100%;
+    font-size: 18px;
+    margin:20px auto;
+  }
+
+  .council-image img {
+    width: 100%; /* Adjust image width to fit smaller screens */
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .councilImage img{
+    width: 100%;
+    height: auto;
+  }
+
+  .councilText {
+    width: 90%;
+    font-size: 14px; /* Further adjust font size for even smaller screens */
+    line-height: 1.1; /* Further adjust line height for even smaller screens */
+    margin: 15px auto;
+  }
+
+  .popup-container{
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto 50px auto;
+
+  }
+
+  .popup2{
+    width: 100%;
+
+  }
+
+  .popup1{
+    width: 100%;
+  }
+
+  .teacher-represent::before,
+.teacher-represent::after,
+.elected-represent::before,
+.elected-represent::after {
+  width: 100%; /* Ensure the pseudo-elements cover the entire width */
+}
+  
+  .house-system .HouseSystem {
+    font-size: 26px;
+  }
+
+  .house-system{
+    width: 90%;
+    height: 200px;
+  }
+
+  .HouseSystem{
+    margin-top: -3px !important;
+  }
+
+  .HouseSystem .KnowMore{
+    font-size: 14px !important;
+    margin-left: 150px !important;
+    margin-top: 54px !important;
+  }
+
+  .KnowMore img{
+    width: 28px;
+    height: auto;
+  }
+
+  .house-system .popuptext {
+    max-width: 97%; /* Adjust maximum width for smaller screens */
+    width: 100%; /* Adjust width for smaller screens */
+    height: 550px; /* Adjust height for smaller screens */
+    bottom: 0%; /* Adjust vertical position for smaller screens */
+    left: 5%; /* Adjust horizontal position for smaller screens */
+    margin-left: 0px;
+    overflow-x: auto;
+  }
+
+  .house-system::after {
+    border-radius: 20px;
+  }
+
+  .house-system::before{
+    border-radius: 20px;
+  }
+
+  .para-stdt{
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .std-table {
+    max-width: 100%; /* Adjust maximum width for smaller screens */
+    width: 100%; /* Set the width to 100% to ensure it adjusts to the container */
+    margin: 30px auto; /* Adjust margin as needed */
+  }
+
+  .std-table th{
+    padding: 0px;
+  }
+
+  .popuptext .std-table td{
+    padding: 5px !important;
+  }
+
+  .popuptext{
+    font-size: 16px;
+  }
+
+  .HouseSystemHeader{
+    font-size: 25px;
+  }
+
+  .electedSystemHeader{
+    font-size: 25px;
+    margin-bottom: 79px;
+  }
+
+  .rounded{
+    border-radius: 20px !important;
+  }
+
+  #cross-image{
+    margin-top: -61px;
+    margin-left: 206px;
+    width: 15%;
+  }
+
+  .perfects{
+    width: 90%;
+    height: 200px;
+  }
+
+  .perfects .perfectSystem {
+    font-size: 26px;
+  }
+
+  .perfectSystem{
+    margin-top: -3px !important;
+  }
+
+  .perfectSystem .KnowMore{
+    font-size: 14px !important;
+    margin-left: 150px !important;
+    margin-top: 54px !important;
+  }
+
+  .perfects .popuptext {
+    max-width: 97%;
+    width: 100%;
+    height: 550px;
+    left: 2%;
+    margin-left: 0;
+  }
+  .table-container{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .teacher-represent{
+    width: 90%;
+    height: 200px;
+    margin-top: 0px;
+  }
+
+  .teacher-represent .teacherSystem {
+    width: 90%;
+    font-size: 27px;
+  }
+
+  .teacherSystem .KnowMore{
+    font-size: 13px !important;
+    margin-left: 140px !important;
+    margin-top: 42px !important;
+  }
+
+  .teacher-represent .popuptext {
+    max-width: 430px; /* Adjust maximum width for smaller screens */
+    width: 100%;
+    height: 550px;
+    left:13rem
+    /* margin-left: 230px; */
+  }
+
+  .elected-represent{
+    width: 90%;
+    height: 200px;
+  }
+
+  .elected-represent .electedSystem {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .electedSystem{
+    margin-top: -3px !important;
+  }
+
+  .electedSystem .KnowMore{
+    font-size: 13px !important;
+    margin-left: 140px !important;
+    margin-top: 38px !important;
+  }
+
+  .elected-represent .popuptext {
+    max-width: 430px; /* Adjust maximum width for smaller screens */
+    width: 100%;
+    height: 520px;
+    left: 2%;
+    margin-left: 0px;
+  }
+
+  .popuptext .table th {
+    font-size: 14px !important; /* Adjust as needed */
+  }
+
+  .popuptext .table td {
+    font-size: 12px !important; /* Adjust as needed */
+  }
+
+
+}
+
+
+
+

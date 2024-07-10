@@ -1,0 +1,184 @@
+
+
+.councellingmainimg{
+    background: url("../Images/Maskgroup.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 1408px; */
+    width: 90vw;
+    margin: 0 auto;
+    Height: 615px;
+
+    overflow: auto;
+}
+
+.Cimginnertext{
+    margin-top: 186px;
+    margin-left: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+    width: 749px;
+    height: 222px;
+    font-size: 44px;
+}
+
+.guidlines{
+    /* width: 1410px; */
+    width: 80vw;
+    Height: 611px;
+    /* margin-left: 89px; */
+    /* margin-top: 162px; */
+    margin:162px auto;
+    display:flex;
+}
+.guidlinesfirst{
+    height: 542px;
+    width: 626px;
+}
+
+.guidlinestext{
+    text-align: start;
+    color: rgba(40, 5, 5, 1);
+    height: 245px;
+    font-family: Poppins;
+    font-size: 22px;;
+}
+
+.guidlinestext2{
+    text-align: start;
+    color: rgba(40, 5, 5, 1);
+    height: 275px;
+    width: 525px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 22px;
+}
+.guidlinestext2Header{
+    font-family: Reem Kufi Fun;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.liststext{
+    display: flex;
+    margin-left: -40px;
+    margin-top: 4px;
+}
+.bullet{
+    background: url('../Images/Default.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 50px;
+    margin: 1px;
+}
+
+.listdata{
+    margin-left: 8px;
+    color: rgba(40, 5, 5, 1);
+    height: auto;
+    width: 545px;
+    font-size: 21px;
+}
+
+.guidlinesimg{
+    background: url('../Images/PIC.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 125px;
+    height: 611px;
+    width: 660px;
+}
+
+.group10{
+    height: 986px;
+    /* width: 1322px; */
+    width:90vw;
+    margin:auto;
+    flex-shrink: 1;
+    /* margin-top: 162px;
+    margin-left: 89px;
+    margin-bottom: 150px; */
+}
+
+.group10mainheading{
+    /* width: 1315px; */
+    width: 100vw;
+    margin-left: 3px;
+    height: 72px;
+    color: darkred;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Reem Kufi Fun;
+}
+
+.rectangle42{
+    height: 824px;
+    /* width: 1322px; */
+    /* width: 100vw; */
+    margin-top: 90px;
+    margin-left: 0px;
+    background-color: rgb(250 228 232);
+    border-radius: 30px;
+    overflow: auto;
+    flex-shrink: 1;
+}
+
+.group14{
+    height: 764.99px;
+    width: 1221.46px;
+    margin-top: 30px;
+    margin-left: 42.02px;
+    background: url('../Images/Group14.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.frame55{
+    margin-top: 61px;
+    margin-left: 20px;
+    height: 637px;
+    width: 1137px;
+}
+
+.subframe55{
+    width: 1186px;
+    height: 637px;
+}
+
+.liststextframe55{
+    display: flex;
+    margin-left: -40px;
+}
+
+.listdataframe55{
+    margin-left: 20px;
+    margin-top: 0px;
+    color: rgba(40, 5, 5, 1);
+    height: auto;
+    text-align: start;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    /* .Admissiondocimg2 {
+      flex-direction: column;
+    }
+    .Admissiondocimg21{
+        width: auto;
+    }
+    .Admissiondocimg22{
+        width: auto;
+    } */
+    /* .guidlines{
+        flex-direction: column;
+    } */
+  }

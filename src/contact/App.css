@@ -1,0 +1,118 @@
+/* ContactUs.css */
+.App {
+  text-align: start;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  margin-bottom: 1%;
+}
+
+.contact-us-content-container h2{
+  color: #CD5C5C;
+  text-align: center;
+  margin-bottom: 0px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* heading 1 */
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Reem Kufi Fun";
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.contact-us-content-container {
+   /* Add padding to separate content from header and footer */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  
+}
+
+.contact-us-contact-container {
+
+  /*display: inline-flex;
+  align-items: flex-start;*/
+  margin: 0 70px 100px 70px;
+  /* width: 1323px; */
+  width:90vw;
+  height: 1058px;
+  gap: var(--RADUIS, 30px);
+  display: flex;
+  border-radius: var(--RADUIS, 30px);
+  background: var(--LIGHT-ORANGE, #FFEEE4);
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: calc(50% - 20px); /* 20px is the padding of the left div */
+  display: flex;
+  flex-direction: column;
+}
+
+.top,
+.bottom {
+  width: 100%;
+  padding: 20px;
+}
+
+/*top {
+  margin-top: 129px;
+  background-color: LIGHT ORANGE;
+  margin-bottom: 10px;
+  
+}
+
+.bottom {
+  margin-top: 37px;
+  background-color: #FFEEE4;
+}*/
+
+/* Header and Footer styles */
+.header {
+  background-color: #8E8BE0;
+  color: white;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #8E8BE0;
+  color: white;
+  padding: 20px;
+  margin-top: auto; /* Push footer to bottom of viewport */
+}
+
+/* Media query for tablets (landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact-us-content-container {
+    width: 90%;
+  }
+}
+
+/* Media query for tablets (portrait) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .contact-us-content-container {
+    width: 90%;
+  }
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 480px) {
+  .contact-us-content-container {
+    width: 95%;
+  }
+}

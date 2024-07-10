@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+  }
+  
+
+.mission-value-header{
+    width: 100%;
+    color: #1D1753;
+    text-align: center;
+    font-family: "Reem Kufi Fun";
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    margin-bottom: 15%;
+}
+
+.mission-values{
+    display: flex;
+    max-width: 1085px;
+    height: auto;
+    /* width: 100%; */
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 7vw;
+    margin-bottom: 9px;
+    justify-content: center; /* Center horizontally */
+    gap: 5%;
+
+
+}
+.missionValue{
+    display: flex;
+    gap:50px
+}
+
+.mission{
+    position: relative;
+    max-width: 505px; 
+    width: 100%;
+    height: auto; 
+    background-color: #FFE5E5; 
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.values{
+    position: relative;
+    max-width: 505px; 
+    width: 100%;
+    height: auto; 
+    background-color: #FFEEE4; 
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.mission-img {
+    display: flex;
+    justify-content: center;
+}
+
+.mission-img img{
+    position: absolute;
+    top: -25%;
+}
+
+.value-img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.value-img img{
+    position: absolute;
+    top:-25%;
+}
+
+.Rectangle57{
+
+    margin-top: 7.5vw;
+
+}
+
+.Rectangle58{
+    margin-top: 7.5vw;
+   
+}
+
+.mission-para{
+    padding: 10px;
+
+}
+
+.values-para{
+    padding: 10px;
+
+}
+
+.Mission-header{
+    text-align: center; 
+    color: #8C1F1F; 
+    font-size: 2.5vw; 
+    font-family: 'Poppins'; 
+    font-weight: 600; 
+    letter-spacing: 0.72; 
+    word-wrap: break-word;
+    margin-bottom: 1.5vw;
+    padding: 0.5vw;
+}
+
+.Values-header{
+    text-align: center; 
+    color: #8C1F1F; 
+    font-size: 2.5vw; 
+    font-family: 'Poppins'; 
+    font-weight: 600; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+    margin-bottom: 1.5vw;
+    padding: 0.5vw;    
+}
+
+.val-para{
+    max-width: 500px; 
+    width:100%;
+    text-align: center; 
+    color: #790707; 
+    font-size: 1.5vw; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 1.55;
+    letter-spacing: 0.44px; 
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    padding: 0.5vw;
+
+}
+
+.msn-para{
+    max-width: 475px;
+    width: 100%; 
+    text-align: center; 
+    color: #790707; 
+    font-size: 1.5vw; 
+    font-family: 'Poppins'; 
+    font-weight: 400; 
+    line-height: 1.55;
+    letter-spacing: 0.44px; 
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+    padding: 0.5vw;
+}
+
+@media screen and (max-width: 450px) {
+
+    .mission-value-header {
+        max-width: 1085px;
+        width: 100%; /* Adjust to fit smaller screens */
+        font-size: 6vw; /* Adjust font size for smaller screens */
+        text-align: center; /* Center the text horizontally */
+        margin-bottom: 3vw; /* Adjust margin for spacing */
+    }
+    .mission-values {
+        display: flex; /* Ensure items are displayed inline */
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        /* margin-left: 94px; */
+        padding-left: 60px;
+    }
+
+    .mission, .values {
+       
+        flex: 0 0 70%; /* Each box takes full width */
+        scroll-snap-align: start; /* Snap each box to the start */
+        width: 30vw; /* Full viewport width */
+        max-width: 70%; /* Ensure each box occupies full width */
+       
+        white-space: normal; /* Wrap text */
+        padding: 0px; /* Add padding for text */
+        box-sizing: border-box;
+    }
+
+    .mission{
+        margin-top: 50px ;
+        margin-left: 85px;
+        margin-right: 68px;
+    }
+    .values{
+        margin-top: 50px;
+        margin-right: 200px;
+    }
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        margin-left: 20px;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+
+      .scroll-buttons{
+        display: flex;
+justify-content: center;      }
+.mission-img img, .value-img img{
+    width: 100px;
+    margin-top: 36px;
+}
+.Mission-header, .Values-header{
+    margin-top: 20px;
+    font-size: 21px !important;
+}
+.msn-para , .val-para{
+    font-size: 16px;
+}
+.missionValue{
+
+}
+}

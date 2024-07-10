@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+.info-video{
+    display: flex;
+    max-width: 1085px;
+    height: auto;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    gap: 8%;
+}
+
+.Journey{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    color: #32245B;
+    font-size: 1.5vw;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    
+
+}
+
+.watchVdo-header{
+    width: 100%;
+    color: #1D1753;
+    text-align: center;
+    font-family: "Reem Kufi Fun";
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    margin-bottom: 4vw;
+}
+
+.youT {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding-top: 35.25%; /* Aspect ratio (height:width = 9:16) */
+  }
+  
+.youT iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 450px) {
+    .watchVdo-header {
+      max-width: 1085px;
+      width: 100%; /* Adjust to fit smaller screens */
+      font-size: 6vw; /* Adjust font size for smaller screens */
+      text-align: center; /* Center the text horizontally */
+      margin-bottom: 3vw; /* Adjust margin for spacing */
+  }
+
+    .info-video {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 20px; /* Adjust spacing between elements */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .Journey{
+        margin-bottom: 40px;
+        font-size: 8px;
+    }
+    .youT{
+        width: 90%;
+    }
+  }
+  

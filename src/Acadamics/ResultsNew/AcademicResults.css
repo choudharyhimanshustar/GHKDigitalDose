@@ -1,0 +1,361 @@
+.academicResultImage{
+    max-width: 1150px;
+    width: 100%;
+    display: flex;
+    margin: 40px auto 120px; 
+    position: relative; 
+}
+
+.academicResultImage img{
+    max-width: 1150px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.TextAcademicResult {
+    position: absolute;
+    top: 51%; /* Adjust as needed */
+    left: 32%; /* Adjust as needed */
+    max-width: 749px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #8C1F1F;
+    font-size: 74px;
+    font-family: 'Reem Kufi Fun';
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.CollegeSchool{
+    max-width: 1100px;
+    display: flex;
+    margin: 80px auto;  
+    justify-content: space-evenly;
+}
+
+.resultSchoolImage{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+
+}
+
+.collegeImage{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.DivisionsSTD{
+    max-width: 1100px;
+    display: flex;
+    margin: 60px auto;  
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.allImage{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.ElthImage{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.TwthImage{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.SearchAddNew{
+    max-width: 1150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+
+.Header1searchbar {
+    /* width: 332px;
+    height: 46px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FAE8E8 0%, rgba(255, 203, 203, 0.59) 100%);
+}
+
+.Header1search {
+    width: 270px;
+    height: 42px;
+    border: none;
+    background: linear-gradient(180deg, #FAE8E8 0%, rgba(255, 203, 203, 0.59) 100%);
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: left;
+    padding-left: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+}
+
+.Searchicon {
+    padding: 1.042px 7.044px 1.042px 1.042px;
+    /* width: 17.915px;
+    height: 17.917px; */
+    width: 35px;
+    height: 30px;
+
+}
+
+.AddNewBtn{
+    max-width: 130px;
+    width: 100%;
+    height: auto;
+}
+
+.tableResult{
+    max-width: 1150px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.ResultTable{
+    max-width: 1150px ;
+    width: 100%;
+    border-color: #FFFCFC;
+}
+
+.roundedTableWrapper {
+    max-width: 1150px ;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+.ResultTable th{
+    color: #8C1F1F;
+    font-size: 26px;
+    font-family: 'Reem Kufi Fun';
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #FBD9D9;
+    line-height: 50.36px;
+    letter-spacing: 0.48;
+}
+
+.ResultTable td{
+    color: #3B0D0D;
+    font-size: 19px;
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 31.36px;
+    letter-spacing: 0.48;
+}
+
+
+.ResultTable .oddRow td{
+    background-color: #FFF3F3;
+}
+
+.ResultTable .evenRow {
+    background-color: #FFFCFC;
+}
+  
+.borderApplied {
+    border: 4px solid #B85E54;
+    border-radius: 37px;
+}
+
+
+.borderApplied1 {
+    border: 4px solid #cda148;
+    border-radius: 37px;
+}
+
+.borderApplied2 {
+    border: 4px solid #B85E54;
+    border-radius: 37px;
+}
+
+.modal-dialog {
+    max-width: 800px; /* Adjust the width of the modal dialog */
+  }
+  
+  .modal-content {
+    background: linear-gradient(180deg, #FAE8E8 0%, rgba(255, 203, 203, 0.59) 100%);
+  }  
+    .modal-header {
+        color: #fff; /* Set the text color of the modal header */
+        width: 100%; /* Adjust width as needed */
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between; /* Add this to push the button to the right */
+        padding: 10px; /* Add padding for better spacing */
+    }
+    
+    .addNewHeader {
+        flex: 1; /* Use flex: 1 to make the header expand and fill the available space */
+        text-align: center; /* Center the text */
+        white-space: nowrap; /* Prevent text wrapping */
+
+    }
+
+    .addNewHeader h1 {
+        background-color: #db9e9e;
+        margin: 5px;
+        display: inline-block; /* Ensure the h1 behaves like an inline element */
+    }
+    
+    .addNewBtn button {
+        background-color: #db9e9e;
+        border-radius: 20px;
+        cursor: pointer; /* Add cursor pointer to indicate button is clickable */
+    }
+    
+
+  .btn{
+    background-color: #db9e9e;
+    color: #fff;
+  }
+  
+  .modal-body {
+    padding: 20px; /* Adjust the padding of the modal body */
+  }
+  
+  .modal-footer {
+    background-color: #f5cdcd; /* Set the background color of the modal footer */
+  }
+
+  
+  
+
+/* Apply specific styles for larger screens */
+@media only screen and (max-width: 768px) {
+    .academicResultImage img{
+        width: 92%;
+    }
+
+    .TextAcademicResult{
+        font-size: 48px;
+    }
+
+    .CollegeSchool{
+        margin: 50px auto;  
+    }
+
+    .resultSchoolImage, .collegeImage {
+        height: 64px;
+        width: 35%; /* Limit the width to 50% of the container on larger screens */
+        border-radius: 55px;
+    }
+
+    .tenthImage, .allImage, .ElthImage, .TwthImage{
+        width: 18%;
+        height: 58px;
+        border-radius: 35px;
+
+    }
+
+    .DivisionsSTD{
+        margin: 60px auto;  
+    }
+
+    .Header1search {
+        width: 200px; /* Adjust width for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .SearchAddNew{
+        width: 92%;
+        margin: 60px auto;
+    }
+
+    .tableResult{
+        width: 92%;
+    }
+
+    .modal{
+        width: 92%;
+        margin: auto 30px;
+    }
+
+    .ResultTable th {
+        font-size: 20px; /* Reduce font size for smaller screens */
+        line-height: 40px; /* Adjust line height for smaller screens */
+    }
+
+    .ResultTable td{
+        font-size: 17px; /* Reduce font size for smaller screens */
+        line-height: 40px;
+    }
+
+    .PDFLink{
+        width: 70%;
+        
+    }
+
+    .AddNewBtn {
+        max-width: 120px; /* Adjust width for smaller screens */
+        /* You can adjust other properties as needed for smaller screens */
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .academicResultImage{
+        margin: 30px auto 80px; 
+    }
+
+    .TextAcademicResult{
+        font-size: 40px;
+    }   
+    
+    .CollegeSchool{
+        margin: 50px auto;  
+    }
+
+    .SearchAddNew{
+        
+        margin: 40px auto;
+    }
+
+    .DivisionsSTD{
+        margin: 50px auto;  
+    }
+    .ResultTable th {
+        font-size: 16px; /* Further reduce font size for even smaller screens */
+        line-height: 25px; /* Further adjust line height for even smaller screens */
+    }
+
+    .ResultTable td{
+        font-size: 13px; /* Reduce font size for smaller screens */
+        line-height: 32px;
+    }
+
+    .Header1search {
+        width: 150px; /* Further adjust width for even smaller screens */
+        font-size: 14px; /* Further adjust font size for even smaller screens */
+    }
+
+    .AddNewBtn {
+        max-width: 100px; /* Further adjust width for even smaller screens */
+        /* You can further adjust other properties as needed for even smaller screens */
+    }
+}

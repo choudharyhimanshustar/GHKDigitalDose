@@ -1,0 +1,78 @@
+.contact-form-container {
+    max-width: 606px;
+    width: 907px;
+  
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ffeee4;
+    border-radius: 5px;
+    background-color: #ffeee4;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .constactUsLabel  {
+    font-weight: bold;
+    color: #8c1f1f;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  /* input[type="text"],
+  input[type="email"],
+  input[type="tel"], /* Styling for phone number field */
+
+  textarea, .inputText {
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 28px;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: #ffeee4;
+    
+  } 
+  
+  textarea {
+    resize: vertical;
+    height: 223px;
+    width: 100%;
+  }
+  
+  .contact-form .submit-button {
+    width: 242px;
+    height: 66px;
+    padding: 10px;
+    border: none;
+    border-radius: 28px;
+    background-color: #d63a3a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 19px auto;
+
+  }
+  
+  .submit-button:hover {
+    background-color: #d63a3a;
+  }
+  .placeholder-text{
+    outline: none;
+    padding: 20px 20px;
+  }
+  
+  
+  .placeholder-text::placeholder{
+    color: #f9acac;
+  }
+  .iconInTextArea:hover{
+    transform: scale(0.5);
+  }

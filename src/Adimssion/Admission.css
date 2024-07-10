@@ -1,0 +1,110 @@
+.Admissiondocimg1{
+    background: url('../Images/top.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vw;
+    /* width: 1408px; */
+    width: 90vw;
+    /* margin-top: 52px;
+    margin-left: 44px; */
+    margin: 20px 40px;
+    /* flex-shrink: 1; */
+}
+
+.Admissiondocimg2{
+    height: 887px;
+    width: 85vw;
+    /* width: 1354px; */
+    margin: 162px 75px 162px 75px;
+    display: flex;
+}
+
+.Admissiondocimg21{
+    background-image: url('../Images/Property\ 1=Default.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 646px;
+    Height: 887px; 
+    /* transition: background-image 0.3s ease-out; */
+    border-radius: 15px;
+}
+
+.Admissiondocimg22{
+    background-image: url('../Images/Property\ 1=Default\ \(2\).png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 646px;
+    Height: 887px;
+    margin-left: 52px;
+}
+
+.Admissiondocimg21:hover {
+    background-image: url('../Images/Property\ 1=Default\ \(1\).png');
+    background-position: center top;
+}
+
+.Admissiondocimg22:hover {
+    background-image: url('../Images/Property\ 1=Variant2.png');  
+    background-position: center top;
+}
+
+@media only screen and (max-width: 768px) {
+    .Admissiondocimg1{
+        /* background: url('../Images/top.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; */
+        /* height: 204px;
+        width: 402px; */
+        /* margin: 20px 16px; */
+        width: 90vw;
+        margin: auto;
+        flex-shrink: 1;
+    }
+    
+    .Admissiondocimg2{
+        height: 878px;
+        /* width: 308vw; */
+        /* width: 1354px; */
+        /* margin: 62px 75px 162px 63px; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 29px;
+    }
+    
+    .Admissiondocimg21{
+        background-image: url('../Images/Property\ 1=Default.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 308px;
+        Height: 423px; 
+        /* transition: background-image 0.3s ease-out; */
+        border-radius: 15px;
+    }
+    
+    .Admissiondocimg22{
+        background-image: url('../Images/Property\ 1=Default\ \(2\).png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 308px;
+        Height: 423px;
+        margin-left: 0px;
+        margin-top: 27px;
+    }
+    
+    .Admissiondocimg21:hover {
+        background-image: url('../Images/Property\ 1=Default\ \(1\).png');
+        background-position: center top;
+    }
+    
+    .Admissiondocimg22:hover {
+        background-image: url('../Images/Property\ 1=Variant2.png');  
+        background-position: center top;
+    }
+}

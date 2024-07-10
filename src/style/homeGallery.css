@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+  }
+  
+
+.Gallery-header{
+
+    text-align: center;
+    color: black;
+    font-size: 52px;
+    font-family: Reem Kufi Fun;
+    font-weight: 600; 
+    text-transform: uppercase; 
+    letter-spacing: 1.04px; 
+    word-wrap: break-word;
+}
+
+.home-gallery{
+    display: flex;
+    max-width: 1085px;
+    height: auto;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    justify-content: center; /* Center horizontally */
+    box-sizing: border-box;
+}
+
+.row-1,.row-2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column1, .column2{
+    /* flex: 0 1; */
+    max-width: 100%;
+}
+
+.column2-1, .column2-2 {
+    /* flex: 0 1; */
+    max-width: 100%;
+    
+}
+
+.column1 img, .column2 img, .column2-1 img, .column2-2 img {
+    margin: 8px;
+    vertical-align: middle;
+    width: 100%;
+
+}
+@media screen and (max-width: 450px) {
+    .home-gallery, .Gallery-header {
+        display: none;
+      }
+  }

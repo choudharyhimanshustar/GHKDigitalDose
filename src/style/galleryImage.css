@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+  }
+  
+
+.grid-wrapper{
+    width: 1085px;
+    height: 1000px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 12px;
+    column-gap: 12px;
+    box-sizing: border-box;
+}
+
+.Gallery1{
+    width: 527px;
+    height: 371px;
+}
+
+
+.Gallery2{
+    width: 390px;
+    height: 465px;
+}
+
+.Gallery3{
+    width: 294px;
+    height: 465px;
+}
+
+.Gallery4{
+    width: 527px;
+    height: 474px;
+}
+
+.Gallery5{
+    width: 711px;
+    height: 380px;
+}

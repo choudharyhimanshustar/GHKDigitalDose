@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+  margin: 0px;
+} */
+.tableContainer::-webkit-scrollbar{
+  display: none;
+}
+@media only screen and (max-width: 640px) {
+  .gap-5 {
+      gap: 1.25rem !important/* 20px */;
+  }
+  .peopleMainDiv{
+    margin: 0px;
+  }
+  .mobileView{
+    margin-left: 1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+}

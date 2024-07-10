@@ -1,0 +1,27 @@
+.popUp{
+/* visibility: hidden; */
+  /* width: 1085px;
+  height: 550px; */
+  background: rgba(217, 217, 217, 0.33); 
+  color: #1e1b1b;
+  box-shadow: 18px 17px 107.19999694824219px 26px #FEDADA inset;
+  /* text-align: justify; */
+  border-radius: 6px;
+  /* padding: 80px 20px; */
+  /* position: absolute; */
+  /* z-index: 2;
+  bottom: 105%;
+  left: 40%; */
+  backdrop-filter: blur(95.80px);
+  /* margin-left: -200px;
+  border-radius: 94px; */
+}
+@media only screen and (max-width: 640px) {
+  .popUpContainer{
+    margin-left: 0 !important;
+  }
+  .tableContainer{
+    margin: 20px 15px !important;
+    height: 53vh !important;
+  }
+}

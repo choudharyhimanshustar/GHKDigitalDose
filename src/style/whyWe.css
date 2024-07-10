@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+}
+
+.chooseGHK{
+    display: flex;
+    max-width: 1085px;
+    height: auto;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 7vw;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    gap: 8%;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+} 
+    
+.whyGHK-header{
+    width: 100%;
+    color: #1D1753;
+    text-align: center;
+    font-family: "Reem Kufi Fun";
+    font-size: 3.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.04px;
+}
+
+.span-GHK{
+    color: #CD5C5C;
+
+}
+
+.image-slideshow {
+    max-width: 421px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+    
+  
+  .image {
+    display: none;
+    box-shadow: 10px 10px 54px -23px #F08080;
+    border-right: 4px solid #F08080; 
+    border-bottom: 4px solid #F08080;
+    border-radius: 20px; /* Adjust the border-radius value as needed */
+
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .image {
+    display: none;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+.overlapping-image {
+    position: absolute;
+    bottom: 0; /* Adjust as needed */
+    right: 0; /* Adjust as needed */
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 15s;
+}
+
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+.image {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .image-fit {
+    width: 100%;
+  }
+.cart-item{
+    max-width: 550px;
+    width: 100%;
+    gap: 2%;
+}
+.cart-item-1{
+    width: 100%;
+    height: auto;
+    gap: 3%;
+    display: inline-flex;
+    padding: 1vw 1.2vw;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.cart-item-2{
+    /* width: 100%; */
+    gap: 2%;
+    padding: 0.5vw 1.2vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.item-1{
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 0px 10px;
+    background: #FFE5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5%;
+}
+
+.teacher-div{
+    color: #310606;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13.072px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.861px; /* 144.286% */
+    letter-spacing: 0.261px;
+}
+
+.teacher-header{
+    color: #310606;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16.072px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.861px; /* 144.286% */
+    letter-spacing: 0.261px;
+}
+
+.item-2{
+    max-width: 297px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 0px 15px;
+    background: #E9F3FF;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8%;
+}
+
+.student-div{
+    color: black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13.072px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.861px; /* 144.286% */
+    letter-spacing: 0.261px;
+    word-wrap: break-word;
+}
+
+.student-header{
+    color: #1F1271;
+    -webkit-text-stroke-width:0.1px;
+    font-family: Poppins;
+    align-items: center;
+    font-size: 16.072px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.30px; /* 144.286% */
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4%;
+}
+
+.item-3{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 8px 8px;
+    background:  var(--LIGHT-RED, #FFF2EF);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+}
+
+.sport-div{
+    color: #401807;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13.072px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.861px; /* 144.286% */
+    letter-spacing: 0.261px;
+}
+
+.sport-header{
+    color: #D14242;
+    -webkit-text-stroke-width: 0.2px;
+    font-family: Poppins;
+    align-items: center;
+    font-size: 16.072px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.30px; /* 144.286% */
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4%;
+}
+
+.item-row{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.item-4{
+    max-width: 290px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 2px 7px;
+    background: var(--LIGHT-ORANGE, #FFEEE4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 1.4vw;
+}
+
+.achieve-div{
+    color: #4C0E0E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13.072px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.861px; /* 144.286% */
+    letter-spacing: 0.261px;
+}
+
+.achieve-header{
+    color: #D12424;
+    text-align: center;
+    -webkit-text-stroke-width:0.1px;
+    font-family: Poppins;
+    font-size: 16.072px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.30px; /* 144.286% */
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: flex-start;
+    bottom: 3px;
+    margin-top: -8px;
+    margin-bottom: 2px;
+}
+
+.item-5{
+    max-width: 290px;
+    width: 100%;
+    height: 130px;
+    border-radius: 20px;
+    padding: 6px 2px;
+    background: #CFCDE6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+}
+
+.alumni-div{
+    color: black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13.072px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.861px; /* 144.286% */
+    letter-spacing: 0.261px;
+}
+
+.alumni-header{
+    color: #110A5E;
+    text-align: center;
+    -webkit-text-stroke-width:0.3px;
+    font-family: Poppins;
+    font-size: 16.49px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.30px; /* 144.286% */
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4%;
+}
+
+@media screen and (max-width: 450px) {
+
+    .whyGHK-header {
+        max-width: 1085px;
+        width: 100%; /* Adjust to fit smaller screens */
+        font-size: 6vw; /* Adjust font size for smaller screens */
+        text-align: center; /* Center the text horizontally */
+        margin-bottom: 3vw; /* Adjust margin for spacing */
+    }
+
+    .image-slideshow {
+        display: none;
+      }
+
+    .teacher-div{
+       font-size: 11.05px;
+
+    }
+    .student-div{
+        font-size: 11.072px;
+ 
+     }
+     .sport-div{
+        font-size: 11.072px;
+ 
+     }
+     .achieve-div{
+        font-size: 10.072px;
+ 
+     }
+     .alumni-div{
+        font-size: 10.072px;
+ 
+     }
+    
+     .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5 {
+        max-width: 85%;
+        width: 100%;
+    }
+    .cart-item-2{
+        margin-left: 22px;
+    }
+    
+}

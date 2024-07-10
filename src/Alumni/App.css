@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.page {
+  /* height: 2035px;
+  width: 1500px; */
+  width: 95vw;
+  margin: 0 auto 100px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}*/
+
+.content {
+  width: 95vw;
+  /* margin-top: 254px; */
+  text-align: center;
+
+}
+
+.alumni-text{
+  font-family: poppins;
+  font-size: 28px;
+  line-height: 36px;
+  color: #150544;
+  margin-top: 162px;
+  text-align: center;
+  width: 1343px;
+  /* height: 129px; */
+}
+
+.alumni-text-section {
+  margin-top: 90px;
+  margin-right: 50px;
+  color: #000;
+  text-align: justify;
+  /* width: 1312px; */
+  height: 188px;
+  font-size: 22px;
+  font-family: poppins;
+  line-height: 31.3px;
+  display: inline-block;
+
+  
+}
+
+/*footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}*/
+
